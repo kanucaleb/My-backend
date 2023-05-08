@@ -21,7 +21,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.use(cors({
-    origin: ['http://localhost:3000','http://localhost:3001','http://172.20.10.6:3001', 'https://pinvent-app.vercel.app'],
+    origin: ['http://localhost:3000','http://localhost:3001','http://172.20.10.6:3000', 'https://inventory-app-ecru.vercel.app', 'https://inventory-apps.vercel.app/'],
     credentials: true,
 }));
 
